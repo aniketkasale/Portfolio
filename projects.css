@@ -80,7 +80,9 @@ padding: 0.2rem;
         max-width: 600px;
       
     }
-   
+    nav{
+        max-width: 600px;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -88,7 +90,17 @@ padding: 0.2rem;
         max-width: 300px;
       
     }
- 
+    nav{
+        max-width: 300px;
+    }
+    nav ul li {
+        list-style: none;
+        display: inline;
+        padding: .5rem;
+        position: relative;
+        bottom: -10px;
+        left: -6px;
+    }
     img{
         height: 14rem;
         width: 17rem;
