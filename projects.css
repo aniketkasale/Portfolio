@@ -15,6 +15,7 @@ body{
     border-radius: 15px;
     padding: 1rem;
     text-align: center;
+    color: #223242;
 }
 .container span{
 border: 2px dotted #34495e;
@@ -22,6 +23,10 @@ border-radius: 20px;
 padding: 0.2rem;
 }
 .container p{
+    font-weight: 600;
+}
+.container li{
+    list-style: none;
     font-weight: 600;
 }
 .container button{
