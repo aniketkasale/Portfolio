@@ -4,6 +4,84 @@ body{
     padding: 0;
     background-color: #34495e;
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color: #2c3e50;
     text-align: center;
 }
+nav ul{
+    margin: 1rem 0rem 1rem -1rem;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 3rem;
+    position: relative;
+    bottom: -10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 600;
+    
+}
+nav ul li .active{
+    font-weight: 800;
+}
+nav{
+    max-width: 800px;
+    border-bottom: 2px dashed #dee3e7;
+    border-radius: 20px;
+    background-color: #dee3e7;
+    margin:1rem auto;
+}
+img{
+    height: 20rem;
+    width: 24rem;
+}
+.container{
+    max-width: 800px;
+    height: 100%;
+    background-color: #dee3e7;
+    margin:1rem auto;
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    color: #223242;
+}
+.container p{
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        max-width: 600px;
+      
+    }
+    nav{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        max-width: 300px;
+      
+    }
+    nav{
+        max-width: 300px;
+    }
+    nav ul li {
+        list-style: none;
+        display: inline;
+        padding: .5rem;
+        position: relative;
+        bottom: -10px;
+        left: -6px;
+    }
+    img{
+        height: 14rem;
+        width: 17rem;
+    }
+}
+
