@@ -1,0 +1,42 @@
+@media screen and (max-width:576px) {
+    .container{
+        max-width: 500px;
+      
+    }
+    nav ul{
+        margin: 1rem 0rem 1rem 12rem;
+    
+    }
+    header img{
+        max-width: 300px;
+        display: block;
+        margin: auto;
+     
+    }
+    header p{
+        font-size: medium;
+    }
+    section{
+      font-size: smaller;
+    }
+    footer{
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        max-width: 600px;
+      
+    }
+    nav ul{
+        margin: 1rem 0rem 1rem 18rem;
+    
+    }
+    header img{
+        max-width: 400px;
+        display: block;
+        margin: auto;
+     
+    }
+}
