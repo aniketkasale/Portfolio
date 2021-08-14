@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #34495e;
+    font-family: 'Nunito', sans-serif;
+    color: #2c3e50;
+}
+.container{
+    max-width: 800px;
+    height: 100%;
+    background-color: #bdc3c7;
+    margin:1rem auto;
+    border-radius: 15px;
+    padding: 1rem;
+}
+nav ul{
+    margin: 1rem 0rem 1rem 31rem;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 300;
+    
+}
+nav ul li .active{
+    font-weight: 600;
+}
+nav{
+    border-bottom: 2px dashed #34495e;
+    border-radius: 20px;
+}
+header{
+    padding: 2rem;
+    text-align: center;
+}
+header img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+ 
+}
+section{
+    background-color: #d6d9da;
+    border-radius: 10px;
+    text-align: center;
+    padding: .5rem;
+    margin: 1rem;
+}
+section .skills{
+    font-weight: 800; color: #2c3e50; border: 2px dotted #34495e;
+    border-radius: 20px;
+    padding: 0.2rem;
+}
+footer{
+    text-align: center;
+    border-top: 2px dashed #34495e;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+footer a{
+    padding: 0rem 1rem;
+
+}
