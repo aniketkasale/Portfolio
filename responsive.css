@@ -5,7 +5,7 @@
       
     }
     nav ul{
-        margin: 1rem 0rem 1rem 18rem;
+        margin: 1rem 0rem 1rem 10rem;
     
     }
     header img{
@@ -22,7 +22,7 @@
       
     }
     nav ul{
-        margin: 1rem 0rem 1rem -1rem;
+        margin: 1rem 0rem 1rem 33.5px;
     
     }
     header img{
@@ -30,6 +30,11 @@
         display: block;
         margin: auto;
      
+    }
+    nav ul li{
+        
+        padding: 3px;
+        
     }
     header p{
         font-size: smaller;

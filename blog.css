@@ -58,8 +58,12 @@ img{
         max-width: 600px;
       
     }
+    
     nav{
         max-width: 600px;
+    }
+    nav ul li{
+        padding: 2rem;
     }
 }
 
@@ -69,8 +73,13 @@ img{
       
     }
     nav{
-        max-width: 300px;
+        max-width: 314px;
     }
+    nav ul{
+        margin: 1rem 0rem 1rem -2rem;
+    font-size: 14px;
+    }
+
     nav ul li {
         list-style: none;
         display: inline;
